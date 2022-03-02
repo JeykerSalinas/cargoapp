@@ -1,14 +1,15 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PortsTable msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PortsTable from './components/PortsTable.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PortsTable
   }
 }
 </script>
